@@ -1,0 +1,27 @@
+.instagram-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+}
+
+.gallery-note {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.gallery-note a {
+    color: var(--accent-color2);
+    text-decoration: none;
+}
+
+.gallery-note a:hover {
+    color: var(--accent-color);
+}

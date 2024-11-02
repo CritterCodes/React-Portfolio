@@ -1,0 +1,30 @@
+/* src/pages/PoliciesPage/PoliciesPage.css */
+
+.policies-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.policies-page h1 {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.policy-section {
+    margin-bottom: 30px;
+}
+
+.policy-section h2 {
+    font-size: 1.8rem;
+    color: var(--accent-color2);
+    margin-bottom: 10px;
+}
+
+.policy-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}

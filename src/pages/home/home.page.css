@@ -1,0 +1,98 @@
+/* Home Page Styles */
+
+.home-page {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 80vw;
+}
+
+.hero {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.intro-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.intro-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--accent-color2);
+}
+
+.highlights {
+    background: none;
+    box-shadow: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.highlight {
+    width: 100%;
+    background-color: var(--section-background);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px var(--shadow-color);
+    text-align: center;
+}
+
+.highlight h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.highlight p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+
+.link-button {
+    padding: 8px 15px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: var(--accent-color2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .highlights {
+        flex-direction: column;
+        align-items: center;
+    }
+}

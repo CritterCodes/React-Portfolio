@@ -1,0 +1,39 @@
+/* src/pages/rates/rates.page.css */
+
+.rates-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rates-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.deposit-info, .appointment-rates {
+    margin-bottom: 30px;
+}
+
+.deposit-info p, .appointment-rates p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.appointment-rates .rate {
+    margin-bottom: 20px;
+}
+
+.rate h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: var(--accent-color2);
+}
+
+.rate p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
